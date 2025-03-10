@@ -32,8 +32,8 @@ This project is a chatbot API that leverages **LangChain** to extract course dat
 
 ### Step 1: Clone the Repository
 ```sh
-git clone https://github.com/your-username/langchain-chatbot.git
-cd langchain-chatbot
+git clone https://github.com/your-username/chat_Bot.git
+cd chat_Bot
 ```
 
 ### Step 2: Install Dependencies
@@ -54,12 +54,12 @@ OPENAI_API_KEY=your-openai-api-key
 ### 1. Extract Data from Brainlox
 Run the following script to scrape and extract course data:
 ```sh
-python data_loader.py
+python dataLoader.py
 ```
 
 ### 2. Generate Embeddings & Store in Vector Database
 ```sh
-python vector_store.py
+python vectorstore.py
 ```
 
 ### 3. Start the Flask API
